@@ -45,7 +45,7 @@ jobs:
 
       - name: "Publish all features from ./src"
         env:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_PLEASE_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
         uses: devcontainers/action@v1
 
