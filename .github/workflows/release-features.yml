@@ -27,7 +27,6 @@ jobs:
           token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
           config-file: .release-please-config.json
           include-component-in-tag: true
-          disable-repo-tagging: true
 
       - name: Debug release outputs
         run: |
@@ -54,12 +53,13 @@ jobs:
           publish-features: "true"
           base-path-to-features: "./src"
           generate-docs: "true"
+          disable-repo-tagging: true
 
       - name: Create PR for Documentation
         id: push_image_info
 
         env:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_PLEASE_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
         run: |
           set -e
