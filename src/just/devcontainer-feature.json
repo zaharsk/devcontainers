@@ -1,7 +1,7 @@
 {
   "name": "Just Language",
   "id": "just",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A full setup for ussing just",
   "options": {
     "just-version": {
