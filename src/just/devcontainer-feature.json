@@ -1,0 +1,26 @@
+{
+  "name": "Just Language",
+  "id": "just",
+  "version": "0.0.0",
+  "description": "A full setup for ussing just",
+  "options": {
+    "just-version": {
+      "type": "string",
+      "proposals": ["latest"],
+      "default": "latest",
+      "description": "Version of just"
+    },
+    "lsp-version": {
+      "type": "string",
+      "proposals": ["latest", "none"],
+      "default": "latest",
+      "description": "Version of just-lsp"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": ["nefrob.vscode-just-syntax"]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "release-type": "simple",
+  "separate-pull-requests": true,
+  "packages": {
+    "src/just": {
+      "component": "just",
+      "extra-files": ["devcontainer-feature.json"]
+    },
+    "src/omz": {
+      "component": "omz",
+      "extra-files": ["devcontainer-feature.json"]
+    },
+    "init_files": {
+      "component": "init_files",
+      "extra-files": ["version.json"]
+    }
+  }
+}

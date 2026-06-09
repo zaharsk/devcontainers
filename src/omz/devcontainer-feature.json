@@ -1,0 +1,13 @@
+{
+  "name": "Oh My zsh",
+  "id": "omz",
+  "version": "0.0.0",
+  "description": "A full setup for using Oh My zsh",
+  "options": {},
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": []
+    }
+  }
+}

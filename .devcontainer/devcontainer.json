@@ -1,0 +1,45 @@
+{
+  "name": "Devcontainers",
+
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+
+  "features": {
+    "./features/just": {},
+    "./features/omz": {}
+  },
+
+  "containerEnv": {},
+
+  // "forwardPorts": [],
+  "initializeCommand": ".devcontainer/initialize-command.sh",
+
+  "postCreateCommand": ".devcontainer/post-create-command.sh",
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "chat.disableAIFeatures": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        // --- --- --- //
+        "json.schemas": [
+          {
+            "fileMatch": ["*/devcontainer-feature.json"],
+            "url": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainerFeature.schema.json"
+          }
+        ]
+      },
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "irongeek.vscode-env",
+        "redhat.vscode-yaml",
+        "barnim.markdown-code-copy-button",
+        // --- --- --- //
+        "mads-hartmann.bash-ide-vscode"
+      ]
+    }
+  },
+
+  // "remoteUser": "root",
+  "runArgs": ["--env-file", ".devcontainer/.env"]
+}
