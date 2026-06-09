@@ -12,7 +12,6 @@
 
   // "forwardPorts": [],
   "initializeCommand": ".devcontainer/initialize-command.sh",
-
   "postCreateCommand": ".devcontainer/post-create-command.sh",
 
   "customizations": {
