@@ -1,9 +1,6 @@
 {
   "release-type": "simple",
-  "separate-pull-requests": true,
   "include-commit-authors": true,
-  "always-update": true,
-  "sequential-calls": true,
   "packages": {
     "src/just": {
       "component": "just",
