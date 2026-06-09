@@ -7,7 +7,7 @@ A full setup for using Oh My zsh
 
 ```json
 "features": {
-    "ghcr.io/zaharsk/devcontainers/omz:0": {}
+    "ghcr.io/zaharsk/devcontainers/omz:1": {}
 }
 ```
 
