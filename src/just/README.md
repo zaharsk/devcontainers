@@ -7,7 +7,7 @@ A full setup for ussing just
 
 ```json
 "features": {
-    "ghcr.io/zaharsk/devcontainers/just:0": {}
+    "ghcr.io/zaharsk/devcontainers/just:1": {}
 }
 ```
 
