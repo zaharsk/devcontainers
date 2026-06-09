@@ -1,23 +1,18 @@
 {
   "name": "Just Language",
   "id": "just",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A full setup for ussing just",
   "options": {
     "just-version": {
       "type": "string",
-      "proposals": [
-        "latest"
-      ],
+      "proposals": ["latest"],
       "default": "latest",
       "description": "Version of just"
     },
     "lsp-version": {
       "type": "string",
-      "proposals": [
-        "latest",
-        "none"
-      ],
+      "proposals": ["latest", "none"],
       "default": "latest",
       "description": "Version of just-lsp"
     }
@@ -25,9 +20,7 @@
   "customizations": {
     "vscode": {
       "settings": {},
-      "extensions": [
-        "nefrob.vscode-just-syntax"
-      ]
+      "extensions": ["nefrob.vscode-just-syntax"]
     }
   }
 }
