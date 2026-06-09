@@ -4,6 +4,7 @@
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 
   "features": {
+    "ghcr.io/zaharsk/devcontainers/omz:1": {},
     "ghcr.io/zaharsk/devcontainers/just:1": {}
   },
 
