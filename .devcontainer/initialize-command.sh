@@ -6,4 +6,4 @@ rm -rf .devcontainer/features
 mkdir -p .devcontainer/features
 
 cp -R src/* .devcontainer/features/
-cp init_files/.env .devcontainer
+cp init_files/.env .devcontainer/
