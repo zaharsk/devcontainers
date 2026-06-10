@@ -22,6 +22,7 @@ Your favorite Git workflow. Reimagined. In devcontainer.
 ### VS Code Extensions
 
 - `GitTower.git-flow-next-extension`
+- `github.vscode-github-actions`
 
 
 
