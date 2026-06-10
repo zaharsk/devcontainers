@@ -5,7 +5,8 @@
 
   "features": {
     "ghcr.io/zaharsk/devcontainers/omz:1": {},
-    "ghcr.io/zaharsk/devcontainers/just:1": {}
+    "ghcr.io/zaharsk/devcontainers/just:1": {},
+    "ghcr.io/zaharsk/devcontainers/git_flow:1": {}
   },
 
   "containerEnv": {},
