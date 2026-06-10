@@ -6,10 +6,7 @@
   "options": {
     "git-flow-version": {
       "type": "string",
-      "proposals": [
-        "latest",
-        "v1.1.0"
-      ],
+      "proposals": ["latest", "v1.1.0"],
       "default": "latest",
       "description": "Version of git-flow"
     }
@@ -18,7 +15,8 @@
     "vscode": {
       "settings": {},
       "extensions": [
-        "GitTower.git-flow-next-extension"
+        "GitTower.git-flow-next-extension",
+        "github.vscode-github-actions"
       ]
     }
   }
