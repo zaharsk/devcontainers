@@ -19,7 +19,8 @@
       "settings": {
         "chat.disableAIFeatures": true,
         "editor.formatOnSave": true,
-        "editor.formatOnPaste": true
+        "editor.formatOnPaste": true,
+        "git.alwaysSignOff": true
         // --- --- --- //
       },
 
