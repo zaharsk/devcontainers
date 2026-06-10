@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/zaharsk/devcontainers/compare/init_files-v1.1.0...init_files-v1.1.1) (2026-06-10)
+
+
+### Bug Fixes
+
+* **init_files:** Added git_flow feature ([60565a4](https://github.com/zaharsk/devcontainers/commit/60565a4ebdae560159bda0ce1e9c003f6163f4c9))
+
 ## [1.1.0](https://github.com/zaharsk/devcontainers/compare/init_files-v1.0.1...init_files-v1.1.0) (2026-06-09)
 
 
