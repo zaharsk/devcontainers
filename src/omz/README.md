@@ -1,7 +1,7 @@
 
 # Oh My zsh (omz)
 
-A full setup for using Oh My zsh
+This Feature enabled zsh as default shell for vscode user
 
 ## Example Usage
 
