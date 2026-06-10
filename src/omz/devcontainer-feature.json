@@ -2,7 +2,7 @@
   "name": "Oh My zsh",
   "id": "omz",
   "version": "1.1.0",
-  "description": "A full setup for using Oh My zsh",
+  "description": "This Feature enabled zsh as default shell for vscode user",
   "options": {},
   "customizations": {
     "vscode": {
