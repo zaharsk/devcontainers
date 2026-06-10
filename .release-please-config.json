@@ -2,6 +2,10 @@
   "release-type": "simple",
   "include-commit-authors": true,
   "packages": {
+    "init_files": {
+      "component": "init_files",
+      "extra-files": ["version.json"]
+    },
     "src/just": {
       "component": "just",
       "extra-files": ["devcontainer-feature.json"]
@@ -10,9 +14,9 @@
       "component": "omz",
       "extra-files": ["devcontainer-feature.json"]
     },
-    "init_files": {
-      "component": "init_files",
-      "extra-files": ["version.json"]
+    "src/git_flow": {
+      "component": "git_flow",
+      "extra-files": ["devcontainer-feature.json"]
     }
   }
 }

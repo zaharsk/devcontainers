@@ -5,7 +5,8 @@
 
   "features": {
     "./features/just": {},
-    "./features/omz": {}
+    "./features/omz": {},
+    "./features/git_flow_next": {}
   },
 
   "containerEnv": {},
