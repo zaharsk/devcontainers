@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/zaharsk/devcontainers/compare/init_files-v1.1.1...init_files-v1.1.2) (2026-06-10)
+
+
+### Bug Fixes
+
+* **init_files:** Added alwaysSignOff setting ([b86b066](https://github.com/zaharsk/devcontainers/commit/b86b066ffe2837e2e9260bc399165ab0ed079cec))
+
 ## [1.1.1](https://github.com/zaharsk/devcontainers/compare/init_files-v1.1.0...init_files-v1.1.1) (2026-06-10)
 
 
